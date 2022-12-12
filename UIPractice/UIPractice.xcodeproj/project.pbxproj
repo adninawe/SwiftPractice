@@ -9,21 +9,23 @@
 /* Begin PBXBuildFile section */
 		3DF0E317294225C8000E24FD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DF0E316294225C8000E24FD /* AppDelegate.swift */; };
 		3DF0E319294225C8000E24FD /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DF0E318294225C8000E24FD /* SceneDelegate.swift */; };
-		3DF0E31B294225C8000E24FD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DF0E31A294225C8000E24FD /* ViewController.swift */; };
 		3DF0E31E294225C8000E24FD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3DF0E31C294225C8000E24FD /* Main.storyboard */; };
 		3DF0E320294225C9000E24FD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3DF0E31F294225C9000E24FD /* Assets.xcassets */; };
 		3DF0E323294225C9000E24FD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3DF0E321294225C9000E24FD /* LaunchScreen.storyboard */; };
+		3DF598D02943408600C5AA93 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DF598CF2943408600C5AA93 /* ViewController.swift */; };
+		3DF598D2294340A600C5AA93 /* ViewController2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DF598D1294340A600C5AA93 /* ViewController2.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		3DF0E313294225C8000E24FD /* UIPractice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UIPractice.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3DF0E316294225C8000E24FD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3DF0E318294225C8000E24FD /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		3DF0E31A294225C8000E24FD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		3DF0E31D294225C8000E24FD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3DF0E31F294225C9000E24FD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3DF0E322294225C9000E24FD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3DF0E324294225C9000E24FD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3DF598CF2943408600C5AA93 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3DF598D1294340A600C5AA93 /* ViewController2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController2.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,11 +60,12 @@
 			children = (
 				3DF0E316294225C8000E24FD /* AppDelegate.swift */,
 				3DF0E318294225C8000E24FD /* SceneDelegate.swift */,
-				3DF0E31A294225C8000E24FD /* ViewController.swift */,
 				3DF0E31C294225C8000E24FD /* Main.storyboard */,
 				3DF0E31F294225C9000E24FD /* Assets.xcassets */,
 				3DF0E321294225C9000E24FD /* LaunchScreen.storyboard */,
 				3DF0E324294225C9000E24FD /* Info.plist */,
+				3DF598CF2943408600C5AA93 /* ViewController.swift */,
+				3DF598D1294340A600C5AA93 /* ViewController2.swift */,
 			);
 			path = UIPractice;
 			sourceTree = "<group>";
@@ -138,7 +141,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3DF0E31B294225C8000E24FD /* ViewController.swift in Sources */,
+				3DF598D02943408600C5AA93 /* ViewController.swift in Sources */,
+				3DF598D2294340A600C5AA93 /* ViewController2.swift in Sources */,
 				3DF0E317294225C8000E24FD /* AppDelegate.swift in Sources */,
 				3DF0E319294225C8000E24FD /* SceneDelegate.swift in Sources */,
 			);

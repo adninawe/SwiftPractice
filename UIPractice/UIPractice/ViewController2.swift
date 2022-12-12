@@ -1,5 +1,5 @@
 //
-//  ViewController.swift
+//  ViewController2.swift
 //  UIPractice
 //
 //  Created by Amit Ninawe on 09/12/22.
@@ -7,7 +7,7 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class ViewController2: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -26,13 +26,4 @@ class ViewController: UIViewController {
     }
     */
 
-    @IBAction func moveToNextVC(){
-        
-        
-        guard let vc2 =  self.storyboard?.instantiateViewController(withIdentifier: "ViewController2") else { return  }
-        self.navigationController?.pushViewController(vc2, animated: true)
-        
-        
-    }
-    
 }
